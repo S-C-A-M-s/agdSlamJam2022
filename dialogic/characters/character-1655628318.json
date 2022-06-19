@@ -1,0 +1,37 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "Winnie-the-Pooh",
+	"display_name_bool": true,
+	"id": "character-1655628318.json",
+	"mirror_portraits": false,
+	"name": "poohbear",
+	"nickname": "Winnie, Poohbear",
+	"nickname_bool": true,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/characters/poohbear/default.png"
+		},
+		{
+			"name": "Blush",
+			"path": "res://assets/characters/poohbear/blush.png"
+		},
+		{
+			"name": "Smug",
+			"path": "res://assets/characters/poohbear/smug.png"
+		},
+		{
+			"name": "Talk 1 Happy",
+			"path": "res://assets/characters/poohbear/happy_talking_1.png"
+		},
+		{
+			"name": "Talk 2 Happy",
+			"path": "res://assets/characters/poohbear/happy_talking_2.png"
+		}
+	],
+	"scale": 25,
+	"theme": ""
+}
