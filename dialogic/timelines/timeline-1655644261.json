@@ -1,6 +1,51 @@
 {
 	"events": [
-
+		{
+			"background": "res://assets/backgrounds/balls/balls0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You have agreed to meet Winnie-the-Pooh at the Mall..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You are a bit nervous, but also excited."
+		},
+		{
+			"background": "res://assets/backgrounds/balls/balls1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Oh, boy, am I glad to see you! I thought you would be a no show!"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",
