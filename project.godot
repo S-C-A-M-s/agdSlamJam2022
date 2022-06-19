@@ -90,10 +90,6 @@ config/name="agdSlamJam2022-godot"
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
 
-[autoload]
-
-Stats="*res://autoloads/stats.gd"
-
 [display]
 
 window/size/width=1920
