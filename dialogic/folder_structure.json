@@ -12,7 +12,7 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Definitions": {
@@ -36,12 +36,12 @@
 			},
 			"metadata": {
 				"color": null,
-				"folded": true
+				"folded": false
 			}
 		},
 		"Timelines": {
 			"files": [
-
+				"timeline-1655636281.json"
 			],
 			"folders": {
 
