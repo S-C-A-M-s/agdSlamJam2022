@@ -8,15 +8,17 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You arrive at the coffee shop.\nYou order a Flat White. Pooh orders an Iced Chocolate."
+			"text": "You find a cute little coffee shop in Adelaide Arcade."
 		},
 		{
-			"definition": "1655684598-366",
-			"event_id": "dialogic_014",
-			"operation": "=",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
+			"background": "res://assets/backgrounds/coffee/coffee1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Its pretty busy, but you and Pooh find a cozy table in the corner."
 		},
 		{
 			"background": "res://assets/backgrounds/coffee/coffee2.JPG",
@@ -51,16 +53,194 @@
 			"set_value": "3"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Its a bit of a squeeze... your shoulder brushes against Pooh's luscious fur and you blush.\nIts so warm... you wish you could just snuggle into him... but that would be too forward.\n\nYou order a flat white, and Pooh orders an iced chocolate."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Goodness, this place is lovely. I should hope its not too expensive."
+		},
+		{
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Blush",
-			"text": "Wow, thanks for taking me here, this place is very cute!\nOh, bother, I'm a bit nervous. I haven't been out on the scene for years now."
+			"text": "...Not that I don't have money that is.\nAnd not at all that I'm at all implying the same for you.\nI just meant to say that-\n\n\n\nOh, bother I'm a bit nervous. \nI haven't been out on the scene for years now."
 		},
 		{
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Angry Talk 1",
-			"text": "My last relationship, lets say, was not the greatest."
+			"text": "My last relationship did not give me much room to breathe, you see."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "But now you have me breathing quite heavily.\nAnd the words flow out of my mouth with the breath you see."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "How do you respond"
+		},
+		{
+			"choice": "I see",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I don't see",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\n\n"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "The silence is getting awkward. What do you say?"
+		},
+		{
+			"choice": "Don't worry, I'm nervous too.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Well I can't relate, I do this all the time.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "I dare you to eat the sugar",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Oh well I was thinking about that.\nBut I thought it might be a little rude.\nBut with your approval..."
+		},
+		{
+			"background": "res://assets/backgrounds/coffee/coffee2_sugar.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"definition": "1655649016-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"definition": "1655684652-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pooh carefully unscrews the jar lid...\nand then enthusiatically starts shovelling sugar into his gaping maw!\nYou can hear it crunching between his impressive canines.\nOther patrons start to give your table weird looks"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "munch-crunch-crunch\nOh, would you like some?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Eat the sugar?"
+		},
+		{
+			"choice": "Yes",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1655684652-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You also start eating the sugar.\nIts sweet, but not exactly tasty.\nThe other patrons are full-on staring at the two of you now.\nAs the waiter approaches, Pooh swiftly recaps the jar and feigns innocence."
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "More for me!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pooh continues devouring sugar with the ferver of a birthday clown devouring hundreds-and-thousands.\nAs the waiter approaches, Pooh swiftly recaps the jar and feigns innocence."
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",
@@ -76,7 +256,13 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 1",
-			"text": "Oh boy! The drinks have arrived!"
+			"text": "Oh excellent! The drinks have arrived!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pooh digs into his iced chocolate with gusto. \nHe is clearly a bear of incredible thirst!"
 		},
 		{
 			"character": "",
@@ -85,7 +271,7 @@
 
 			],
 			"portrait": "",
-			"question": "Pooh seems busy with his drink. How will you drive the conversation?"
+			"question": "How will you drive the conversation?"
 		},
 		{
 			"choice": "Ask him if he is enjoying his drink.",
@@ -98,7 +284,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 2",
-			"text": "Yeah, I sure do love iced chocolate.\nPity more places don't sell iced honey though..."
+			"text": "Oh I am very fond of iced chocolate. \nI've always had a sweet tooth you see.\nA pity more places don't sell iced honey though..."
 		},
 		{
 			"choice": "Ask him about his last relationship.",
@@ -111,7 +297,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Yeah, my time with Alt Jizney wasn't the best.\nThey made me a star, no doubt, but they took away my freedom.\nMy individuality too.\nI had to wear that darn shirt every day..."
+			"text": "Oh.\nWell my time with Alt Jizney wasn't the best you see.\nStardom has its Benefits, but when one achieves it one loses one's freedom and individuality.\nI had to wear that darn shirt every day..."
 		},
 		{
 			"character": "character-1655628318.json",
@@ -123,47 +309,42 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Blush",
-			"text": "Nevermind, let's keep going with our date."
+			"text": "Nevermind, let's speak of other things."
 		},
 		{
-			"choice": "Suggest he tries the sugar.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
+			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pooh finishes his drink."
+			"text": "You continue chatting about inconsequential things as you finish your drinks.\nPooh seems charming, if perhaps not the brightest firefly in the tree."
 		},
 		{
-			"character": "character-1655628318.json",
-			"event_id": "dialogic_001",
-			"portrait": "Happy Talk 2",
-			"text": "Good idea. I do love sugar!"
-		},
-		{
-			"background": "res://assets/backgrounds/coffee/coffee2_sugar.JPG",
+			"background": "res://assets/backgrounds/coffee/coffee4.JPG",
 			"event_id": "dialogic_021"
 		},
 		{
-			"definition": "1655649016-366",
+			"definition": "1655684598-366",
 			"event_id": "dialogic_014",
-			"operation": "-",
+			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "3"
+			"set_value": "1"
 		},
 		{
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
-			"portrait": "Happy Talk 1",
-			"text": "Om nom nom."
+			"portrait": "Smug",
+			"text": "hmmm-hm-hm.\nWell that was delightful.\nShall we head somewhere else?"
 		},
 		{
-			"event_id": "dialogic_013"
+			"definition": "1655696368-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		}
 	],
 	"metadata": {

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex"
+path="res://.import/gardens2_tree.JPG-2772a209bc7ab8cf6701ab3c8a9f3f0f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/alley/IMG_0489.JPG"
-dest_files=[ "res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex" ]
+source_file="res://assets/backgrounds/gardens/gardens2_tree.JPG"
+dest_files=[ "res://.import/gardens2_tree.JPG-2772a209bc7ab8cf6701ab3c8a9f3f0f.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex"
+path="res://.import/kfc2.JPG-f32476b0907ffc63db754f049fd7fb56.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/alley/IMG_0489.JPG"
-dest_files=[ "res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex" ]
+source_file="res://assets/backgrounds/kfc/kfc2.JPG"
+dest_files=[ "res://.import/kfc2.JPG-f32476b0907ffc63db754f049fd7fb56.stex" ]
 
 [params]
 

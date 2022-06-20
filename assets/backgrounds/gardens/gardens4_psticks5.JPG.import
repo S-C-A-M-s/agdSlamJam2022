@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex"
+path="res://.import/gardens4_psticks5.JPG-33bc429ab056b64beee0c692323083f8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/backgrounds/alley/IMG_0489.JPG"
-dest_files=[ "res://.import/IMG_0489.JPG-5a5b1cdf786aac63004fbc890efc1a63.stex" ]
+source_file="res://assets/backgrounds/gardens/gardens4_psticks5.JPG"
+dest_files=[ "res://.import/gardens4_psticks5.JPG-33bc429ab056b64beee0c692323083f8.stex" ]
 
 [params]
 
