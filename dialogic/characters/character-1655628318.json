@@ -34,6 +34,10 @@
 		{
 			"name": "Angry Talk 1",
 			"path": "res://assets/characters/poohbear/angry_talking_1.png"
+		},
+		{
+			"name": "Sick",
+			"path": "res://assets/characters/poohbear/sick.png"
 		}
 	],
 	"scale": 45,
