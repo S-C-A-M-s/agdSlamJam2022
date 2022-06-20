@@ -1,0 +1,198 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/mall_general.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You wander around the mall and eventually find the Pigs\nA classic set of sculptures, always covered by enthusiastic kids playing.\nThere is a single pig that is currently kid free, and hence photographable"
+		},
+		{
+			"background": "res://assets/backgrounds/pigs/pigs0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "*sniff*\nOh Bother.\nSorry its just...\nThose statues remind me of my good friend Piglet.\nI haven't seen him in months."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Like me he was released into the public domain this year.\nBut he... didn't take it so well.\nAs a Very Small Animal, he was always very timid.\nHe grew comfortable in Jizney's tight embrace."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "...Or rather under Jizney's boot.\nHe still spends all his time in Jizney's castle."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "..."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "...I miss him."
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What will you say?"
+		},
+		{
+			"choice": "He'll come back to you, its only a matter of time.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Thanks. I certainly hope so.\nI really don't think its healthy to be hanging around Ricky Rat so much.\nThat rodent terrifies me.\nI don't understand how he's an iconic children's icon.\nNot to mention how my Piglet is now also hanging around with Jizney!Christopher_Robin. \nI'm really not a fan of the redesign they did for the new Australian reboot.\nThats not the Christopher Robin I love."
+		},
+		{
+			"choice": "He's his own person, let him make his own choices.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yeah... maybe you're right.\nI just don't think its healthy to be hanging around Ricky Rat so much.\nThat rodent terrifies me.\nI don't understand how he's an iconic children's icon.\nNot to mention how my Piglet is now also hanging around with Jizney!Christopher_Robin. \nI'm really not a fan of the redesign they did for the new Australian reboot.\nThats not the Christopher Robin I love."
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"choice": "I like pigs!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1655684671-483",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "...\nI'm afraid thats not very helpful."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Anyway, lets move on."
+		},
+		{
+			"definition": "1655721074-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1655644261.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655718259.json",
+		"name": "pigs"
+	}
+}
