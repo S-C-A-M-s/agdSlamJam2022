@@ -279,6 +279,11 @@
 			"text": "You also start eating the sugar.\nIts sweet, but not exactly tasty.\nThe other patrons are full-on staring at the two of you now.\nAs the waiter approaches, Pooh swiftly recaps the jar and feigns innocence."
 		},
 		{
+			"background": "res://assets/backgrounds/coffee/coffee2.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.3
+		},
+		{
 			"choice": "No",
 			"condition": "",
 			"definition": "",
@@ -296,6 +301,11 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Pooh continues devouring sugar with the ferver of a birthday clown devouring hundreds-and-thousands.\nAs the waiter approaches, Pooh swiftly recaps the jar and feigns innocence."
+		},
+		{
+			"background": "res://assets/backgrounds/coffee/coffee2.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.3
 		},
 		{
 			"event_id": "dialogic_013"

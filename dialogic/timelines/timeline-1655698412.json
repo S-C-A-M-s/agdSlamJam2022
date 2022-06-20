@@ -1,0 +1,824 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/library/library0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"definition": "1655649016-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Well I can't say I'm particularly fond of the library, for you see I am a bear of very little brain."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "But I would be quite happy to go with you on this expedition.\nI suppose I might learn something."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "You arrive at the base of the library building. There is an elevator, and a staircase."
+		},
+		{
+			"choice": "We shall take the elevator",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"background": "res://assets/backgrounds/library/library1_lift_option.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Ah, the elevator."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "I've always found it to be the best way to travel uphill."
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_lift_interior.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As the elevator travels upwards, Pooh starts to hum along to the elevator music"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Tum-ti-tum, Tum-ti-tum,\nTum-ti-tum, Tum-ti-tum,\nTiddle-um tum, Tiddle-um tum,\nTiddle-um tum, Tiddle-um tum,\nTum-ti-tum, Tum ti tum,\nTum-ti-tiddle-um-tum!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The elevator arrives at the third floor, which is where one finds the library."
+		},
+		{
+			"choice": "We shall take the stairs",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"background": "res://assets/backgrounds/library/library1_stairs_option.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Oh bother.\nI don't suppose you might carry me?"
+		},
+		{
+			"condition": "",
+			"definition": "1655684598-366",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You do not think you would be able to carry Pooh two metres, let along up three flights of stairs.\nRegardless, the two of you begin the arduous vertical journey to the library."
+		},
+		{
+			"definition": "1655649016-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you ascend the first flight of stairs, you ponder Pooh. Who is this enigmatic bear? Why does he never wear a shirt? Why do you feel as through the two of you are bound, body and soul?"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs2.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you round the corner, you hear Pooh puffing and panting behind you. Apparently he is very much unaccustomed to physical exertion."
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs3.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "As you ascend the second flight of stairs, your energy starts to run out. You ponder your life choices and consider the idea that this may have been a mistake."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "How (puff) much further (puff) is there to go?"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs4.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "This is hell. \nYou are dead and this is hell.\nYour legs are burning, your heart is throbbing, your shirt is soaked in sweat.\nIf only you had taken the elevator.\nYou would give anything to go back in time and take the elevator."
+		},
+		{
+			"definition": "1655684631-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "uuurgh................"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs5.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You crest the final flight of stairs and collapse onto the floor, breathing heavily.\nYou did it.\nDespite all odds you did it."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "We... we did it!\nDespite all odds, we did it!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1655684598-366",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "With the energy from your earlier coffee still flowing through your veins, you wink at Pooh, then lift him in one hand and place him on your shoulders"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "OH!"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You dash up the stairs, taking them 3 at a time!"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs2.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs3.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs4.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"background": "res://assets/backgrounds/library/library2_stairs5.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 0.5
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "Goodness gracious!\nI had no idea you were so strong!"
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655684582-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library3_hub.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You enter the library.\nThe smell of paper and knowledge fills the air."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy Talk 1",
+			"question": "So now that we're here, what would you like to do?"
+		},
+		{
+			"choice": "Look at books",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Why not?"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You browse the shelves. Lots of interesting books along here!\nSuddenly something catches your eye"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books2.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "\"Hey, are those your books?\""
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books3.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Blush",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh... well...\nYes.\nThese were the books from which I was originally spawned"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Although to be specific, this version of \"Me\" is created entirely from the contents of \"Winnie-the-Pooh.\"\nSince that was written in 1926 and is now in the public domain."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "Alt Jizney still owns the rights to \"The House at Pooh Corner,\" since that was published two years later\nHe's my Ex.\nIts... complicated"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "I want to hear it",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "My original creators were Alan Milne and his son, Christopher Robin Milne.\nOnce merely a stuffed toy, they gave me life, and a soul, and a purpose."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "I would play with a fictional version of Christopher Robin. Have adventures. Get up to trouble.\nI even discovered the North Pole you know.\nIt was perfect."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But nothing perfect lasts forever.\nI was sold, along with all my friends.\nFirst to a fellow named Steven Slesinger, and then again to Alt Jizney."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Jizney put my talents to good use. He gave me a slick new design with a brightly colored shirt. He made me a moviestar.\nThings were different. I was different. All my friends were different.\nBut we got new vitality. A whole new chance to play and adventure and have fun.\nEverything was wonderful."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Until it wasn't.\nJizney grew more and more powerful. And it all went to his head.\nMy image was plastered everywhere. Toys, shirts, greeting cards... Each new copy veering further away from my original soul, my original purpose."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "I became a symbol of Jizney. A macabre puppet forced to dance, yanked and contorted by strings made of capitalism.\nAnd when it looked like I might go free... that I would pass into the public domain...\nJizney started lobbying to change copyright laws. He had an incredible amount of money and power, and he used it all to keep me within his grasp.\nI should have been freed in 1982, but Jizney's lobbying changed the law, extending my sentance until 2001.\nAnd then again, until 2022.\nUntil this year."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "This is my first year of freedom."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "I've honestly been loving it.\nTheres so much to see and do! So much that JIZNEY never let me do!\nI've been acting in a horror movie, in newspaper comics, in a dating sim..."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But I'm not fully free yet.\nAs I said, this \"Me\" is constructed entirely from the events of the original \"Winnie-the-Pooh.\"\nAll other works centered on me are still protected.\nSo its illegal for me to use any of the traits from those versions. I can't <REDACTED>, or play <REDACTED> Or even wear a shirt that looks too much like my Jizney rendition.\nWorst of all, some of my friends were only introduced in those later versions. <REDACTED> is still trapped within Jizney's clutches, as is <REDACTED>.\nIts honestly pretty depressing."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "But its only a matter of time now.\nI don't think Jizney can get away with another copyright extension. Theres already talk of reverting some of their changes.\nAs every year goes by, more of my friends will be free.\nMore of MYSELF will be free.\n..."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Well anyway, thanks for listening. It felt good to vent."
+		},
+		{
+			"definition": "1655684591-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
+			"choice": "Look at book",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books5.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " "
+		},
+		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_books1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy Talk 1",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Lets head out, I want to get some fresh air."
+		},
+		{
+			"choice": "Take a nap",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Sounds good to me!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You find a quiet little nook with comfy chairs"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Smug",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax2.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You sit down. Pooh takes a seat next to you."
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax_pooh_awake.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Pooh makes a noise of contentment and sinks deeply into the chair\nHe closes his eyes, a blissful smile on his face"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax_pooh_asleep.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He looks so adorable like this, you just want to pet his bare bear belly\n...but instead you lean back in your own chair, close your eyes and enjoy the blissful silence."
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax4.JPG",
+			"event_id": "dialogic_021",
+			"fade_duration": 4
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\npsst! Wake Up!"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library4_relax_pooh_awake.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Sorry to disturb your nap, but the library's closing now.\nBut I must humbly thank you for bringing me here, this is a truly splendid napping place!\nI know I shall come back here soon."
+		},
+		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://assets/backgrounds/library/library3_hub.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " "
+		},
+		{
+			"background": "res://assets/backgrounds/library/library0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So where to next?"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655698412.json",
+		"name": "library"
+	}
+}
