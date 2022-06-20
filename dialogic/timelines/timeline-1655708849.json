@@ -1,0 +1,160 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/statue/statue0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You and Winnie arrive at a large statue."
+		},
+		{
+			"background": "res://assets/backgrounds/statue/statue1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "This is a big statue! Golly, makes me feel so small uwu."
+		},
+		{
+			"background": "res://assets/backgrounds/statue/statue1_details.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy Talk 2",
+			"question": "Do you know anything about this statue?"
+		},
+		{
+			"choice": "No I'm stupid.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Oh, well, it's okay. I wasn't to interested in it anyways."
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"choice": "Tell him about the statue.",
+			"condition": ">=",
+			"definition": "1655684591-787",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You tell Pooh about the intricacies of this statue.\nHis eyes start to glaze over.\nYou drone on and on.\nAnd on and on and on and on.\nJeez you are still going.\nThis was a bad idea huh.\nYou finish your boring ass story."
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
+			"definition": "1655687738-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Seems like you know a lot about the history of this city!\nA bit much for a bear like me!"
+		},
+		{
+			"choice": "Lie about the statue.",
+			"condition": ">=",
+			"definition": "1655684678-970",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You lie about the statue.\nYou feel dirty. How could you dog Winnie-the-Pooh like this.\nAnd he's not even a dog, he's a bear."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow. Really? Aliens made the statue? That's fascinating.\nAnd he stood up to Heffalumps? Damn?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1655718085-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1655644261.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655708849.json",
+		"name": "statue"
+	}
+}

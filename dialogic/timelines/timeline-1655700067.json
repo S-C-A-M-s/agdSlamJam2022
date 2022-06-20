@@ -8,7 +8,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You have agreed to meet Pooh at a shopping centre.\nYou needed to get a birthday card for your mum...\n...and figured you could kill two birds with one stone."
+			"text": "You and Pooh arrive at a shopping centre.\nYou needed to get a birthday card for your mum...\n...and figured you could kill two birds with one stone."
 		},
 		{
 			"definition": "1655705550-648",
@@ -152,7 +152,13 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 2",
-			"text": "Let's have a look... What card would suit your mother, do you reckon?"
+			"text": "Let's have a look at all these lovely cards..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You select a card, and show it to Pooh."
 		},
 		{
 			"animation": "[Default]",
@@ -242,7 +248,7 @@
 			"z_index": 0
 		},
 		{
-			"background": "res://assets/backgrounds/kmart/kmart5-temp.JPG",
+			"background": "res://assets/backgrounds/kmart/kmart5-pooh.JPG",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -415,6 +421,30 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"animation": "instant_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1655644261.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
