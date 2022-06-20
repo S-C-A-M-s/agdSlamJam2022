@@ -8,7 +8,7 @@
 [node name="Main" type="Control"]
 theme = ExtResource( 3 )
 script = ExtResource( 1 )
-timeline = "shopping"
+timeline = "kindling"
 
 [node name="Dialogic" type="Node" parent="."]
 script = ExtResource( 2 )

@@ -1,28 +1,13 @@
 {
 	"events": [
 		{
-			"background": "res://assets/backgrounds/balls/balls0.JPG",
-			"event_id": "dialogic_021"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "You have agreed to meet Winnie-the-Pooh at the Mall..."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "You are a bit nervous, but also excited."
-		},
-		{
 			"background": "res://assets/backgrounds/balls/balls1.JPG",
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
+			"animation": "instant_in.gd",
 			"animation_length": 0,
+			"animation_wait": false,
 			"change_mirror_portrait": false,
 			"change_z_index": false,
 			"character": "character-1655628318.json",
@@ -31,7 +16,7 @@
 			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -42,92 +27,19 @@
 		},
 		{
 			"character": "character-1655628318.json",
-			"event_id": "dialogic_001",
-			"portrait": "Happy Talk 1",
-			"text": "Oh, boy, am I glad to see you! I thought you would be a no show!"
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Poohbear is looking excited to see you."
-		},
-		{
-			"choice": "Ask him how he is.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"character": "character-1655628318.json",
-			"event_id": "dialogic_001",
-			"portrait": "Happy Talk 2",
-			"text": "Oh I am doing well. Much better than before."
-		},
-		{
-			"definition": "1655642877-648",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "2"
-		},
-		{
-			"choice": "Talk about the weather.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"character": "character-1655628318.json",
-			"event_id": "dialogic_001",
-			"portrait": "Smug",
-			"text": "Yeah, the weather is pretty nice. Not sunny, but not too cold."
-		},
-		{
-			"definition": "1655642877-648",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
-		},
-		{
-			"choice": "Stand awkwardly in silence.",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"character": "character-1655628318.json",
-			"event_id": "dialogic_001",
-			"portrait": "Happy Talk 1",
-			"text": "... Yeah, I'm nervous too. I understand."
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"character": "character-1655628318.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "Blush",
-			"question": "So, where should we go for our date?"
+			"question": "So, where should we go next?"
 		},
 		{
 			"choice": "Go to the coffee shop.",
-			"condition": "",
-			"definition": "",
+			"condition": "<",
+			"definition": "1655696368-648",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "1"
 		},
 		{
 			"animation": "[Default]",
@@ -185,11 +97,11 @@
 			"event_id": "dialogic_020"
 		},
 		{
-			"choice": "Go shopping.",
-			"condition": "",
-			"definition": "",
+			"choice": "Check out a statue.",
+			"condition": "<",
+			"definition": "1655718085-146",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "1"
 		},
 		{
 			"animation": "[Default]",
@@ -212,7 +124,38 @@
 			"z_index": 0
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1655708849.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Go shopping.",
+			"condition": "<",
+			"definition": "1655707990-787",
+			"event_id": "dialogic_011",
+			"value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1655700067.json",
 			"event_id": "dialogic_020"
 		},
 		{

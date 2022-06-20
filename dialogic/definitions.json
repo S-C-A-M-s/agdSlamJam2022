@@ -34,24 +34,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684582-648",
-			"name": "BUFF_LEGS",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1655684591-787",
-			"name": "HISTORIAN",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1655684631-146",
-			"name": "EXHAUSTED",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684652-918",
 			"name": "ENABLER",
 			"type": 0,
@@ -82,12 +64,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684671-483",
-			"name": "PIGLOVER",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655705550-648",
 			"name": "MULTITASKER",
 			"type": 0,
@@ -102,6 +78,42 @@
 		{
 			"id": "1655707990-787",
 			"name": "SHOPPING",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655710260-366",
+			"name": "MALL",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684582-648",
+			"name": "BUFF_LEGS",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684631-146",
+			"name": "EXHAUSTED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684591-787",
+			"name": "HISTORIAN",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684671-483",
+			"name": "PIGLOVER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655718085-146",
+			"name": "STATUE",
 			"type": 0,
 			"value": "0"
 		}

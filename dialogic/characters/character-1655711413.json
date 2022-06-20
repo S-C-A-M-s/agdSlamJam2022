@@ -1,0 +1,49 @@
+{
+	"color": "#ffff0000",
+	"description": "",
+	"display_name": "Kindling - Find your Hunny!",
+	"display_name_bool": true,
+	"id": "character-1655711413.json",
+	"mirror_portraits": false,
+	"name": "kindling",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/characters/phone/phone_blank.png"
+		},
+		{
+			"name": "Phone Q1",
+			"path": "res://assets/characters/phone/phone_q1.png"
+		},
+		{
+			"name": "Phone Q2",
+			"path": "res://assets/characters/phone/phone_q2.png"
+		},
+		{
+			"name": "Phone Q3",
+			"path": "res://assets/characters/phone/phone_q3.png"
+		},
+		{
+			"name": "Processing",
+			"path": "res://assets/characters/phone/phone_processing.png"
+		},
+		{
+			"name": "Finding Match",
+			"path": "res://assets/characters/phone/phone_matching.png"
+		},
+		{
+			"name": "Match Found",
+			"path": "res://assets/characters/phone/phone_match_found.png"
+		},
+		{
+			"name": "Pooh",
+			"path": "res://assets/characters/phone/phone_poohbear.png"
+		}
+	],
+	"scale": 35,
+	"theme": ""
+}
