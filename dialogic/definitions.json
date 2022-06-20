@@ -76,12 +76,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655696368-648",
-			"name": "COFFEE",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684598-366",
 			"name": "CAFFEINATED",
 			"type": 0,
@@ -96,6 +90,18 @@
 		{
 			"id": "1655705550-648",
 			"name": "MULTITASKER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655696368-648",
+			"name": "COFFEE",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655707990-787",
+			"name": "SHOPPING",
 			"type": 0,
 			"value": "0"
 		}

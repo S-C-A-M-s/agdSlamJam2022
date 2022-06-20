@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "The Fuzz",
+	"display_name_bool": true,
+	"id": "character-1655702546.json",
+	"mirror_portraits": false,
+	"name": "cop",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/backgrounds/kmart/kmart5_police.png"
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

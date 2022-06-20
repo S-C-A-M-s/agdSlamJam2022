@@ -23,14 +23,15 @@
 			"folders": {
 				"scenes": {
 					"files": [
-						"1655696368-648"
+						"1655696368-648",
+						"1655707990-787"
 					],
 					"folders": {
 
 					},
 					"metadata": {
 						"color": null,
-						"folded": true
+						"folded": false
 					}
 				},
 				"stats": {
