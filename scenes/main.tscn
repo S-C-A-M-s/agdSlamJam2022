@@ -1,11 +1,22 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://scenes/main.gd" type="Script" id=1]
 [ext_resource path="res://addons/dialogic/Other/DialogicClass.gd" type="Script" id=2]
+[ext_resource path="res://assets/themes/main.tres" type="Theme" id=3]
+[ext_resource path="res://scenes/stats.tscn" type="PackedScene" id=4]
 
-[node name="Main" type="Node2D"]
+[node name="Main" type="Control"]
+theme = ExtResource( 3 )
 script = ExtResource( 1 )
 timeline = "coffee_shop"
 
 [node name="Dialogic" type="Node" parent="."]
 script = ExtResource( 2 )
+
+[node name="StatsHUD" parent="." instance=ExtResource( 4 )]
+
+[node name="Tick" type="Timer" parent="."]
+wait_time = 0.2
+autostart = true
+
+[connection signal="timeout" from="Tick" to="." method="_on_Tick_timeout"]
