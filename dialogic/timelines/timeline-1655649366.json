@@ -1,0 +1,174 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/coffee/coffee0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You arrive at the coffee shop.\nYou order a Flat White. Pooh orders an Iced Chocolate."
+		},
+		{
+			"definition": "1655684598-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"background": "res://assets/backgrounds/coffee/coffee2.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "Wow, thanks for taking me here, this place is very cute!\nOh, bother, I'm a bit nervous. I haven't been out on the scene for years now."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "My last relationship, lets say, was not the greatest."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The waiter arrives and delivers the drinks."
+		},
+		{
+			"background": "res://assets/backgrounds/coffee/coffee3.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Oh boy! The drinks have arrived!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Pooh seems busy with his drink. How will you drive the conversation?"
+		},
+		{
+			"choice": "Ask him if he is enjoying his drink.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Yeah, I sure do love iced chocolate.\nPity more places don't sell iced honey though..."
+		},
+		{
+			"choice": "Ask him about his last relationship.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yeah, my time with Alt Jizney wasn't the best.\nThey made me a star, no doubt, but they took away my freedom.\nMy individuality too.\nI had to wear that darn shirt every day..."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "... and if I ever see that damn Ricky Rat again, I'll..."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "Nevermind, let's keep going with our date."
+		},
+		{
+			"choice": "Suggest he tries the sugar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pooh finishes his drink."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Good idea. I do love sugar!"
+		},
+		{
+			"background": "res://assets/backgrounds/coffee/coffee2_sugar.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"definition": "1655649016-366",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "3"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Om nom nom."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655649366.json",
+		"name": "coffee_shop"
+	}
+}
