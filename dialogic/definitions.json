@@ -8,6 +8,84 @@
 			"name": "sincerity",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1655648962-648",
+			"name": "affection",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655648996-787",
+			"name": "similarity",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655649016-366",
+			"name": "synergy",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655687775-787",
+			"name": "respect",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684582-648",
+			"name": "BUFF_LEGS",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684591-787",
+			"name": "HISTORIAN",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684598-366",
+			"name": "CAFFIENATED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684631-146",
+			"name": "EXHAUSTED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684652-918",
+			"name": "ENABLER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684671-483",
+			"name": "PIGLOVER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684678-970",
+			"name": "CRIMINAL",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655687738-648",
+			"name": "SMARTASS",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655687988-366",
+			"name": "SAVIOUR",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }
