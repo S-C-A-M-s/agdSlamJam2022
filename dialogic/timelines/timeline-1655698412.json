@@ -5,26 +5,6 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"animation": "[Default]",
-			"animation_length": 0,
-			"change_mirror_portrait": false,
-			"change_z_index": false,
-			"character": "character-1655628318.json",
-			"event_id": "dialogic_002",
-			"mirror_portrait": false,
-			"portrait": "Default",
-			"portrait_definition": "",
-			"position": {
-				"0": true,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			},
-			"type": 0,
-			"z_index": 0
-		},
-		{
 			"definition": "1655648996-787",
 			"event_id": "dialogic_014",
 			"operation": "-",
@@ -45,6 +25,26 @@
 			"event_id": "dialogic_001",
 			"portrait": "Default",
 			"text": "Well I can't say I'm particularly fond of the library, for you see I am a bear of very little brain."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
 		},
 		{
 			"character": "character-1655628318.json",
@@ -813,7 +813,19 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "So where to next?"
+			"text": " "
+		},
+		{
+			"definition": "1655717854-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1655644261.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {
