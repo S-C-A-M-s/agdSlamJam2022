@@ -34,8 +34,17 @@ func update_traits(dialog: Dialogic):
 		if value > 0 and not player_traits.has(trait):
 			player_traits.push_front(trait)
 			player_traits.resize(max_traits)
+			_remove_old_traits(dialog)
 	emit_signal("update_traits")
 
 func get_variable(dialog: Dialogic, namespace: String, variable: String):
 	var output = dialog.get_variable(namespace + "/" + variable)
 	return int(output)
+
+func set_variable(dialog: Dialogic, namespace: String, variable: String, value: int):
+	dialog.set_variable(namespace + "/" + variable, value)
+
+func _remove_old_traits(dialog: Dialogic):
+	for trait in traits:
+		if not player_traits.has(trait):
+			set_variable(dialog, "traits", trait, 0)

@@ -10,7 +10,6 @@ var stat_mapping: Dictionary = {
 	"similarity": "Panel/Display/Stats/Similarity"
 }
 
-
 func _ready():
 	Stats.connect("update_stats", self, "_on_stats_updated")
 	Stats.connect("update_traits", self, "_on_traits_updated")
@@ -31,5 +30,5 @@ func _on_traits_updated():
 	for trait in Stats.player_traits:
 		if trait != null:
 			var label = Label.new()
-			label.text = trait
+			label.text = trait.capitalize()
 			traits_node.add_child(label)

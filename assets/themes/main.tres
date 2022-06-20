@@ -1,21 +1,26 @@
-[gd_resource type="Theme" load_steps=5 format=2]
+[gd_resource type="Theme" load_steps=7 format=2]
 
 [ext_resource path="res://assets/fonts/NotoSans-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://assets/fonts/DejaVuSansMono.ttf" type="DynamicFontData" id=2]
 
 [sub_resource type="DynamicFont" id=4]
 size = 32
-font_data = ExtResource( 1 )
+font_data = ExtResource( 2 )
 
 [sub_resource type="StyleBoxFlat" id=1]
-content_margin_left = 10.0
-content_margin_right = 10.0
-content_margin_top = 10.0
-content_margin_bottom = 10.0
+content_margin_left = 32.0
+content_margin_right = 32.0
+content_margin_top = 32.0
+content_margin_bottom = 32.0
 bg_color = Color( 0, 0, 0, 0.705882 )
 corner_radius_top_left = 10
 corner_radius_top_right = 10
 corner_radius_bottom_right = 10
 corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxLine" id=5]
+color = Color( 1, 1, 1, 0.705882 )
+vertical = true
 
 [sub_resource type="DynamicFont" id=3]
 use_filter = true
@@ -28,3 +33,5 @@ Label/constants/shadow_offset_x = 2
 Label/constants/shadow_offset_y = 2
 Label/fonts/font = SubResource( 4 )
 PanelContainer/styles/panel = SubResource( 1 )
+VSeparator/constants/separation = 32
+VSeparator/styles/separator = SubResource( 5 )
