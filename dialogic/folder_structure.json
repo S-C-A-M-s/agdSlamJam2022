@@ -20,7 +20,7 @@
 
 			],
 			"folders": {
-				"scenes_completed": {
+				"scenes": {
 					"files": [
 						"1655696368-648"
 					],
@@ -29,7 +29,7 @@
 					},
 					"metadata": {
 						"color": null,
-						"folded": false
+						"folded": true
 					}
 				},
 				"stats": {
