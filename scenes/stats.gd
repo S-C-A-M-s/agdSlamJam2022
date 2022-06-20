@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-onready var traits_node := $Panel/Display/Traits
+onready var traits_node := $Panel/Display/Center/Traits
 
 var stat_mapping: Dictionary = {
 	"affection": "Panel/Display/Stats/Affection",
@@ -9,7 +9,6 @@ var stat_mapping: Dictionary = {
 	"synergy": "Panel/Display/Stats/Synergy",
 	"similarity": "Panel/Display/Stats/Similarity"
 }
-
 
 func _ready():
 	Stats.connect("update_stats", self, "_on_stats_updated")
@@ -31,5 +30,5 @@ func _on_traits_updated():
 	for trait in Stats.player_traits:
 		if trait != null:
 			var label = Label.new()
-			label.text = trait
+			label.text = trait.capitalize()
 			traits_node.add_child(label)

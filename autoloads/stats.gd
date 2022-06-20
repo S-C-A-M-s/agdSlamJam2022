@@ -7,8 +7,8 @@ var stats: Array = [
 	"sincerity", "affection", "similarity", "synergy", "respect"
 	]
 var traits: Array = [
-	"BUFF_LEGS", "HISTORIAN", "CAFFIENATED", "EXHAUSTED",
-	"ENABLER", "PIGLOVER", "CRIMINAL", "SMARTASS", "SAVIOUR"
+	"BUFF_LEGS", "HISTORIAN", "CAFFEINATED", "EXHAUSTED",
+	"ENABLER", "PIGLOVER", "CRIMINAL", "SMARTASS", "SAVIOUR", "MULTITASKER"
 	]
 
 var player_stats: Dictionary
@@ -34,8 +34,21 @@ func update_traits(dialog: Dialogic):
 		if value > 0 and not player_traits.has(trait):
 			player_traits.push_front(trait)
 			player_traits.resize(max_traits)
+			_remove_old_traits(dialog)
+	if player_traits.has("MULTITASKER"):
+		max_traits = 5
+	else:
+		max_traits = 3
 	emit_signal("update_traits")
 
 func get_variable(dialog: Dialogic, namespace: String, variable: String):
 	var output = dialog.get_variable(namespace + "/" + variable)
 	return int(output)
+
+func set_variable(dialog: Dialogic, namespace: String, variable: String, value: int):
+	dialog.set_variable(namespace + "/" + variable, value)
+
+func _remove_old_traits(dialog: Dialogic):
+	for trait in traits:
+		if not player_traits.has(trait):
+			set_variable(dialog, "traits", trait, 0)

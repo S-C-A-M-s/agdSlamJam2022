@@ -10,5 +10,3 @@ func _ready():
 
 func _on_Tick_timeout():
 	Stats.update($Dialogic)
-	print(Stats.player_traits)
-	print(Stats.player_stats)
