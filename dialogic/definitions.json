@@ -34,12 +34,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684652-918",
-			"name": "ENABLER",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684678-970",
 			"name": "CRIMINAL",
 			"type": 0,
@@ -60,12 +54,6 @@
 		{
 			"id": "1655684598-366",
 			"name": "CAFFEINATED",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1655705550-648",
-			"name": "MULTITASKER",
 			"type": 0,
 			"value": "0"
 		},
@@ -126,6 +114,24 @@
 		{
 			"id": "1655718085-146",
 			"name": "STATUE",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684652-918",
+			"name": "ENABLER",
+			"type": 0,
+			"value": "1"
+		},
+		{
+			"id": "1655705550-648",
+			"name": "MULTITASKER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655726075-648",
+			"name": "FOOD POISNED",
 			"type": 0,
 			"value": "0"
 		}
