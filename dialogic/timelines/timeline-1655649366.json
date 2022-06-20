@@ -5,6 +5,14 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -45,18 +53,10 @@
 			"z_index": 0
 		},
 		{
-			"definition": "1655642877-648",
-			"event_id": "dialogic_014",
-			"operation": "=",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "3"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Its a bit of a squeeze... your shoulder brushes against Pooh's luscious fur and you blush.\nIts so warm... you wish you could just snuggle into him... but that would be too forward.\n\nYou order a flat white, and Pooh orders an iced chocolate."
+			"text": "Its a bit of a squeeze... your shoulder brushes against Pooh's luscious fur and you blush.\nIts so warm... you wish you could just snuggle into him... but that would be too forward.\nYou order a flat white, and Pooh orders an iced chocolate."
 		},
 		{
 			"character": "character-1655628318.json",
@@ -68,7 +68,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Blush",
-			"text": "...Not that I don't have money that is.\nAnd not at all that I'm at all implying the same for you.\nI just meant to say that-\n\n\n\nOh, bother I'm a bit nervous. \nI haven't been out on the scene for years now."
+			"text": "...Not that I don't have money that is.\nAnd not at all that I'm at all implying the same for you.\nI just meant to say that-\nOh, bother. I'm a bit nervous. \nI haven't been out on the scene for years now."
 		},
 		{
 			"character": "character-1655628318.json",
@@ -106,13 +106,21 @@
 			"value": ""
 		},
 		{
+			"definition": "1655648962-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"event_id": "dialogic_013"
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "...\n\n"
+			"text": "..."
 		},
 		{
 			"character": "",
@@ -131,11 +139,61 @@
 			"value": ""
 		},
 		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Well thats nice to hear.\nI'm glad its not just me."
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"choice": "Well I can't relate, I do this all the time.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh.\nWell I suppose you must get a lot of action then."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "I'm honored to be worth a place in your busy schedule"
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"choice": "I dare you to eat the sugar",
@@ -243,6 +301,9 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -297,7 +358,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Oh.\nWell my time with Alt Jizney wasn't the best you see.\nStardom has its Benefits, but when one achieves it one loses one's freedom and individuality.\nI had to wear that darn shirt every day..."
+			"text": "Oh.\nWell my time with Alt Jizney wasn't the best you see.\nHe had, I found, a fondness for control that chaffed somewhat. And when one finds that such a person has complete control over one's life and career...\nWell.\nStardom has Benefits, but I have found that freedom and individuality are what I prefer.\nI had to wear that darn shirt every day..."
 		},
 		{
 			"character": "character-1655628318.json",
@@ -308,8 +369,16 @@
 		{
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
-			"portrait": "Blush",
+			"portrait": "Happy Talk 1",
 			"text": "Nevermind, let's speak of other things."
+		},
+		{
+			"definition": "1655642877-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "+1"
 		},
 		{
 			"event_id": "dialogic_013"
