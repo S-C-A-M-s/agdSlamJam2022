@@ -1,6 +1,6 @@
 extends CanvasLayer
 
-onready var traits_node := $Panel/Display/Traits
+onready var traits_node := $Panel/Display/Center/Traits
 
 var stat_mapping: Dictionary = {
 	"affection": "Panel/Display/Stats/Affection",
