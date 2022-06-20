@@ -31,8 +31,8 @@
 			"options": [
 
 			],
-			"portrait": "Blush",
-			"question": "So, where should we go next?"
+			"portrait": "Smug",
+			"question": "So, what should we do now?"
 		},
 		{
 			"choice": "Go to the coffee shop.",
@@ -186,7 +186,7 @@
 			"z_index": 0
 		},
 		{
-			"change_timeline": "",
+			"change_timeline": "timeline-1655698412.json",
 			"event_id": "dialogic_020"
 		},
 		{

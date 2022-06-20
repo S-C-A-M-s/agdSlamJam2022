@@ -800,10 +800,9 @@
 			"event_id": "dialogic_021"
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": " "
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://assets/backgrounds/library/library0.JPG",
