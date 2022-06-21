@@ -1,0 +1,180 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/kfc/kfc0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"definition": "1655687775-787",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1655648996-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Ah, JFC."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy Talk 1",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "I've always been fond of JFC. Its gob-smacking good!"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy Talk 1",
+			"question": "What shall we get?"
+		},
+		{
+			"choice": "Chicken Nuggies to share",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Sounds splendid! As long as we can get the sweet and sour sauce. I go crazy for that stuff!"
+		},
+		{
+			"choice": "Burgers",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 2",
+			"text": "Well I'm paying, and I say we get nuggets anyways!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://assets/backgrounds/kfc/kfc1.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smug",
+			"text": "Well, here we go! The order is placed!"
+		},
+		{
+			"background": "res://assets/backgrounds/kfc/kfc2.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You collect your meal, then go to sit down."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh, this table does not look so clean at all!\nMaybe we should take our meal to go?\nWe could have a picnic in the park instead!"
+		},
+		{
+			"background": "res://assets/backgrounds/kfc/kfc0.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "You leave the JFC, and go to head to the park."
+		},
+		{
+			"change_timeline": "timeline-1655812988.json",
+			"event_id": "dialogic_020"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655722736.json",
+		"name": "kfc"
+	}
+}

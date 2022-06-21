@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"background": "",
+			"event_id": "dialogic_021"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,

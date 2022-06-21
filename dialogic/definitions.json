@@ -34,12 +34,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684652-918",
-			"name": "ENABLER",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684678-970",
 			"name": "CRIMINAL",
 			"type": 0,
@@ -60,12 +54,6 @@
 		{
 			"id": "1655684598-366",
 			"name": "CAFFEINATED",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1655705550-648",
-			"name": "MULTITASKER",
 			"type": 0,
 			"value": "0"
 		},
@@ -94,20 +82,8 @@
 			"value": "0"
 		},
 		{
-			"id": "1655721074-787",
-			"name": "PIGS",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684582-648",
 			"name": "BUFF_LEGS",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1655684631-146",
-			"name": "EXHAUSTED",
 			"type": 0,
 			"value": "0"
 		},
@@ -126,6 +102,72 @@
 		{
 			"id": "1655718085-146",
 			"name": "STATUE",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655705550-648",
+			"name": "MULTITASKER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684631-146",
+			"name": "EXHAUSTED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684652-918",
+			"name": "ENABLER",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655801838-918",
+			"name": "FOOD",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655721074-787",
+			"name": "PIGS",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655799437-648",
+			"name": "TRASH_DISGUST",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655799449-787",
+			"name": "TRASH_MOCK",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655799455-366",
+			"name": "TRASH_FILM",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655799482-146",
+			"name": "TRASH_LAUGH",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655726075-648",
+			"name": "IS_POISONED?",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655803119-483",
+			"name": "DATE_COMPLETE?",
 			"type": 0,
 			"value": "0"
 		}
