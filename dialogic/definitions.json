@@ -94,12 +94,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684631-146",
-			"name": "EXHAUSTED",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1655684591-787",
 			"name": "HISTORIAN",
 			"type": 0,
@@ -118,12 +112,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1655684652-918",
-			"name": "ENABLER",
-			"type": 0,
-			"value": "1"
-		},
-		{
 			"id": "1655705550-648",
 			"name": "MULTITASKER",
 			"type": 0,
@@ -132,6 +120,18 @@
 		{
 			"id": "1655726075-648",
 			"name": "FOOD POISNED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684631-146",
+			"name": "EXHAUSTED",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1655684652-918",
+			"name": "ENABLER",
 			"type": 0,
 			"value": "0"
 		}
