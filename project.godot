@@ -87,6 +87,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Stats="*res://autoloads/stats.gd"
+BadFile="*res://autoloads/bad_file.gd"
 
 [display]
 

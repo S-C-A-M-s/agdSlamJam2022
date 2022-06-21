@@ -1,0 +1,81 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/alley/IMG_0489.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You know, I hoped we could get along!\nI really thought that we could find something in common.\nBut I guess I was wrong."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I hope this date being terrible wasn't only my fault.\nBut I guess some bears just don't get to find a match.\nNow go! Leave! I can't bear to be around you."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well done.\nPoohbear has left the chat.\nAre you happy?\nYou had to min out the stats didn't you!\nGetting such low stats doesn't happen on accident.\nI hope next time you will be his [i]saviour[/i].\nBut there won't be a nextime, will there?"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "create_bad_file",
+				"target_node_path": "BadFile"
+			},
+			"event_id": "dialogic_042"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1655818468.json",
+		"name": "bad_end"
+	}
+}

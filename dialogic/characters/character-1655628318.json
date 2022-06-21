@@ -38,6 +38,10 @@
 		{
 			"name": "Sick",
 			"path": "res://assets/characters/poohbear/sick.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://assets/characters/poohbear/sad.png"
 		}
 	],
 	"scale": 45,

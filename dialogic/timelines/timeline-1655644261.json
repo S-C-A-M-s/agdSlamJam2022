@@ -73,7 +73,7 @@
 		},
 		{
 			"choice": "Get some food.",
-			"condition": ">",
+			"condition": "<",
 			"definition": "1655801838-918",
 			"event_id": "dialogic_011",
 			"value": "1"
