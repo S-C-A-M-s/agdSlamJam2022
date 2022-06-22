@@ -24,7 +24,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Well I can't say I'm particularly fond of the library, for you see I am a bear of very little brain."
+			"text": "Well I can't say I'm particularly fond of the library, for you see I am a Bear of Very Little Brain."
 		},
 		{
 			"animation": "[Default]",
@@ -50,7 +50,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 1",
-			"text": "But I would be quite happy to go with you on this expedition.\nI suppose I might learn something."
+			"text": "But I shall go with you on this Expotition, and maybe I will learn something."
 		},
 		{
 			"character": "",
@@ -82,7 +82,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 2",
-			"text": "I've always found it to be the best way to travel uphill."
+			"text": "I've always found it to be the Best Way to travel uphill."
 		},
 		{
 			"definition": "1655648996-787",
@@ -129,7 +129,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Smug",
-			"text": "Oh bother.\nI don't suppose you might carry me?"
+			"text": "Oh bother.\nThe problem with stairs is that there's always too many of them.\nI don't suppose you might carry me?"
 		},
 		{
 			"condition": "",
@@ -213,7 +213,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "How (puff) much further (puff) is there to go?"
+			"text": "It is (puff) times like these (puff) when I wish I was a bird.\nOr (puff) at the very least (puff) a Bear With Wings."
 		},
 		{
 			"background": "res://assets/backgrounds/library/library2_stairs4.JPG",
