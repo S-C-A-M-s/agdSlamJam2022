@@ -1,0 +1,71 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/boss/boss.tscn" type="PackedScene" id=1]
+[ext_resource path="res://assets/bossfight/bounds.svg" type="Texture" id=2]
+[ext_resource path="res://scenes/boss/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scenes/boss/bossfight.gd" type="Script" id=4]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 138, 263 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 477, 55.5 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 74, 544.5 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 953.5, 60.75 )
+
+[node name="Bossfight" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Boss" parent="." instance=ExtResource( 1 )]
+position = Vector2( 960, 183 )
+health = 600
+attack_speed = 7
+
+[node name="Bounds" type="Sprite" parent="."]
+position = Vector2( 960, 662 )
+scale = Vector2( 0.342071, 0.342071 )
+texture = ExtResource( 2 )
+
+[node name="Player" parent="." groups=["entity"] instance=ExtResource( 3 )]
+position = Vector2( 960, 583 )
+rotation = -1.5708
+
+[node name="Collision" type="StaticBody2D" parent="."]
+
+[node name="CollisionLeft" type="CollisionShape2D" parent="Collision"]
+position = Vector2( 352, 659 )
+shape = SubResource( 1 )
+
+[node name="CollisionRight" type="CollisionShape2D" parent="Collision"]
+position = Vector2( 1568, 659 )
+shape = SubResource( 1 )
+
+[node name="CollisionTop" type="CollisionShape2D" parent="Collision"]
+position = Vector2( 965, 347 )
+shape = SubResource( 2 )
+
+[node name="CollisionBottom" type="CollisionShape2D" parent="Collision"]
+position = Vector2( 965, 978 )
+shape = SubResource( 2 )
+
+[node name="OuterCollision" type="StaticBody2D" parent="." groups=["entity"]]
+
+[node name="CollisionLeft" type="CollisionShape2D" parent="OuterCollision"]
+position = Vector2( -72, 534.5 )
+shape = SubResource( 3 )
+
+[node name="CollisionRight" type="CollisionShape2D" parent="OuterCollision"]
+position = Vector2( 1992, 534.5 )
+shape = SubResource( 3 )
+
+[node name="CollisionTop" type="CollisionShape2D" parent="OuterCollision"]
+position = Vector2( 956, -64 )
+shape = SubResource( 4 )
+
+[node name="CollisionBottom" type="CollisionShape2D" parent="OuterCollision"]
+position = Vector2( 956, 1144 )
+shape = SubResource( 4 )

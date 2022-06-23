@@ -1,6 +1,71 @@
 {
 	"events": [
-
+		{
+			"background": "res://assets/backgrounds/gardens/gardens5.JPG",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I thought we could finish off the date here in the gardens."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "I really love this place, and I thought it would be a good place to take you!"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Today has been...\nI have really...\nOh bother, I'm sorry! I just feel awful right now."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "It's just... My friends are still locked away in Jizney's castle.\nAnd here I have been having a marvellous time, whilst they while away in misery."
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry Talk 1",
+			"text": "It just won't do! I can't let this happen!"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blush",
+			"text": "I... I have something to ask of you...\nWould you help me save my friends?\nI know you are quite capable!"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy Talk 1",
+			"text": "Oh you will? Thank you so much!\nHowever can I repay you?\nWell then, off to Alt Jizney's castle!"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.2 - Dev",

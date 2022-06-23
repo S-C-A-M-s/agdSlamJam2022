@@ -61,7 +61,7 @@
 		{
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
-			"portrait": "Default",
+			"portrait": "Sad",
 			"text": "...I miss him."
 		},
 		{
@@ -108,7 +108,7 @@
 			"character": "character-1655628318.json",
 			"event_id": "dialogic_001",
 			"portrait": "Smug",
-			"text": "Thanks. I certainly hope so.\nI really don't think its healthy to be hanging around Ricky Rat so much.\nThat rodent terrifies me.\nI don't understand how he's an iconic children's icon.\nNot to mention how my Piglet is now also hanging around with Jizney!Christopher_Robin. \nI'm really not a fan of the redesign they did for the new Australian reboot.\nThats not the Christopher Robin I love."
+			"text": "Thanks. I certainly hope so.\nI really don't think its healthy to be hanging around Ricky Rat so much.\nThat rodent terrifies me.\nI don't understand how he's an iconic children's icon.\nNot to mention how my Piglet is now also hanging around with Jizney's Christopher Robin. \nI'm really not a fan of the redesign they did for the new Australian reboot.\nThats not the Christopher Robin I love."
 		},
 		{
 			"choice": "He's his own person, let him make his own choices.",

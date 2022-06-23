@@ -385,10 +385,10 @@
 		{
 			"definition": "1655642877-648",
 			"event_id": "dialogic_014",
-			"operation": "=",
+			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "+1"
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -424,6 +424,26 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
 		},
 		{
 			"change_timeline": "timeline-1655644261.json",

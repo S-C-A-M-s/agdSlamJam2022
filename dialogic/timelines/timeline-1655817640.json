@@ -110,6 +110,48 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We had a great time today!\nI hope we can meet up again real soon!\nBut I really ought to be heading home now!\nGoodbye!"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "The End!\nThankyou for playing Project Honeypot!\nHope you enjoyed!"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "quit_game",
+				"target_node_path": "Misc"
+			},
+			"event_id": "dialogic_042"
 		}
 	],
 	"metadata": {
