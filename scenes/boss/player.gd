@@ -1,9 +1,13 @@
-extends KinematicBody2D
+extends Entity
 
-export var speed = 450  # speed in pixels/sec
+export var default_speed := 450  # speed in pixels/sec
+var speed: int
 var velocity = Vector2.ZERO
 
-onready var bullet := load("res://scenes/boss/projectile.tscn")
+onready var bullet := load("res://scenes/boss/projectiles/projectile.tscn")
+
+func _ready():
+	speed = default_speed
 
 func get_input():
 	velocity = Vector2.ZERO
@@ -24,11 +28,11 @@ func _physics_process(delta):
 
 func _input(event):
 	if event.is_action_pressed("ui_accept"):
+		print(rotation)
 		_shoot()
 
 func _shoot():
 	var bullet_instance = bullet.instance()
+	bullet_instance.global_position = Vector2(position.x, position.y - 75)
+	bullet_instance.rotation = rotation
 	owner.add_child(bullet_instance)
-	bullet_instance.start(transform, null, 0)
-	bullet_instance.position.y -= 80
-	print(bullet_instance)
