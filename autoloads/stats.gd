@@ -31,15 +31,21 @@ func update_traits(dialog: Dialogic):
 	var value: int
 	for trait in traits:
 		value = get_variable(dialog, "traits", trait)
-		if value > 0 and not player_traits.has(trait):
-			player_traits.push_front(trait)
-			player_traits.resize(max_traits)
-			_remove_old_traits(dialog)
+		if value > 0:
+			add_trait(trait, dialog)
 	if player_traits.has("MULTITASKER"):
 		max_traits = 5
 	else:
 		max_traits = 3
 	emit_signal("update_traits")
+
+func add_trait(trait: String, dialog: Dialogic):
+	if not player_traits.has(trait):
+		player_traits.push_front(trait)
+		player_traits.resize(max_traits)
+		_remove_old_traits(dialog)
+		set_variable(dialog, "traits", trait, 1)
+		
 
 func get_variable(dialog: Dialogic, namespace: String, variable: String):
 	var output = dialog.get_variable(namespace + "/" + variable)

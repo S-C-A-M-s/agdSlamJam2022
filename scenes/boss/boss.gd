@@ -11,18 +11,23 @@ func _ready():
 	$ActionLoop.start()
 
 func perform_action(action):
-	match action:
-		ACTIONS.SHOOT: _shoot_projectile()
-		ACTIONS.SWIPE: print("swiped")
-		ACTIONS.BLOCK: print("blocked")
+	for loop in (randi() % 4 + 1):
+		var rand := rand_range(-600, 600)
+		var pos := Vector2(position.x + rand, position.y + 200)
+		_shoot_projectile(pos)
+#	match action:
+#		ACTIONS.SHOOT: _shoot_projectile()
+#		ACTIONS.SWIPE: print("swiped")
+#		ACTIONS.BLOCK: print("blocked")
 
-func _shoot_projectile():
+func _shoot_projectile(pos):
 	var bullet_instance = bullet.instance()
-	bullet_instance.global_position = Vector2(position.x, position.y + 200)
+	bullet_instance.global_position = pos
 	bullet_instance.rotation = 1.8
+	bullet_instance.texture_rotation = -90
 	bullet_instance.target = Misc.player
 	owner.add_child(bullet_instance)
-	print(bullet_instance)
+
 
 func _pick_action():
 	var size = ACTIONS.size()

@@ -5,6 +5,8 @@ class_name Projectile
 export var speed = 700
 export var damage = 5
 export (String, FILE) var texture
+export var texture_rotation: float
+export var texture_scale: float = 0.1
 
 var velocity := Vector2.ZERO
 
@@ -25,6 +27,8 @@ func damage(body):
 
 func _ready():
 	$Texture.texture = load(texture)
+	$Texture.rotation_degrees = texture_rotation
+	$Texture.scale = Vector2(texture_scale, texture_scale)
 	connect("body_entered", self, "_on_Projectile_body_entered")
 	init()
 

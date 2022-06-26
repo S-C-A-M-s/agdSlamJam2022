@@ -65,6 +65,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "Happy Talk 1",
 			"text": "Oh you will? Thank you so much!\nHowever can I repay you?\nWell then, off to Alt Jizney's castle!"
+		},
+		{
+			"change_timeline": "timeline-1656233429.json",
+			"event_id": "dialogic_020"
 		}
 	],
 	"metadata": {

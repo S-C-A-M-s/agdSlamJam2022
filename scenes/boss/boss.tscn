@@ -12,7 +12,6 @@ script = ExtResource( 2 )
 attack_speed = 1
 
 [node name="ActionLoop" type="Timer" parent="."]
-wait_time = 0.5
 
 [node name="Texture" type="Sprite" parent="."]
 scale = Vector2( 0.185425, 0.185425 )

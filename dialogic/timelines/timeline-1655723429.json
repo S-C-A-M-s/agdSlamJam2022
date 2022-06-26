@@ -1,12 +1,6 @@
 {
 	"events": [
 		{
-			"condition": ">=",
-			"definition": "1655684652-918",
-			"event_id": "dialogic_012",
-			"value": "1"
-		},
-		{
 			"background": "res://assets/backgrounds/trash/trash1.JPG",
 			"event_id": "dialogic_021"
 		},
@@ -21,10 +15,10 @@
 		},
 		{
 			"choice": "Convince Pooh to eat garbage.",
-			"condition": "",
-			"definition": "",
+			"condition": ">=",
+			"definition": "1655684652-918",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "1"
 		},
 		{
 			"animation": "[Default]",
@@ -271,22 +265,6 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1655722736.json",
-			"event_id": "dialogic_020"
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"event_id": "dialogic_013"
-		},
-		{
-			"condition": "<",
-			"definition": "1655684652-918",
-			"event_id": "dialogic_012",
-			"value": "1"
 		},
 		{
 			"change_timeline": "timeline-1655722736.json",

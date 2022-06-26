@@ -4,7 +4,7 @@ class_name Entity
 
 export var health: int setget _health_changed
 export var invulnerable: bool
-export var immune_time: float = 0.05
+export var immune_time: float = 0.08
 
 var immune: bool
 var dead: bool
@@ -17,7 +17,10 @@ func hit(damage: int):
 
 func _health_changed(new_health):
 	if not get_tree() == null:
-		_damaged()
+		if new_health < health:
+			_damaged()
+		else:
+			_healed()
 	health = new_health
 	if health <= 0:
 		_damaged()
@@ -29,7 +32,12 @@ func _damaged():
 	immune = true
 	var immune_timer := get_tree().create_timer(immune_time)
 	immune_timer.connect("timeout", self, "_on_immune_timer_timeout")
-	
+
+func _healed():
+	modulate = Color.green
+	yield(get_tree().create_timer(immune_time), "timeout")
+	modulate = Color.white
+
 func _on_immune_timer_timeout():
 	if not dead:
 		modulate = Color.white
