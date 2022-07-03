@@ -5,6 +5,12 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1,
+			"waiting_skippable": false
+		},
+		{
 			"animation": "instant_in.gd",
 			"animation_length": 0,
 			"animation_wait": false,
@@ -31,8 +37,8 @@
 			"options": [
 
 			],
-			"portrait": "Blush",
-			"question": "So, where should we go next?"
+			"portrait": "Smug",
+			"question": "So, what should we do now?"
 		},
 		{
 			"choice": "Go to the coffee shop.",
@@ -62,15 +68,15 @@
 			"z_index": 0
 		},
 		{
-			"change_timeline": "timeline-1655649366.json",
+			"change_timeline": "timeline-1655718259.json",
 			"event_id": "dialogic_020"
 		},
 		{
 			"choice": "Get some food.",
-			"condition": "",
-			"definition": "",
+			"condition": "<",
+			"definition": "1655801838-918",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "1"
 		},
 		{
 			"animation": "[Default]",
@@ -160,10 +166,10 @@
 		},
 		{
 			"choice": "Go to the library.",
-			"condition": "",
-			"definition": "",
+			"condition": "<",
+			"definition": "1655717854-648",
 			"event_id": "dialogic_011",
-			"value": ""
+			"value": "1"
 		},
 		{
 			"animation": "[Default]",
@@ -196,6 +202,17 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "2"
+		},
+		{
+			"choice": "Finish the Date.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1655802963.json",
+			"event_id": "dialogic_020"
 		},
 		{
 			"event_id": "dialogic_013"

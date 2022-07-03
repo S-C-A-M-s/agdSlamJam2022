@@ -1,0 +1,29 @@
+{
+	"color": "#ffb2ff0a",
+	"description": "",
+	"display_name": "Christopher Robin",
+	"display_name_bool": true,
+	"id": "character-1655800473.json",
+	"mirror_portraits": false,
+	"name": "christopher",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -275,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://assets/characters/christopher/default.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://assets/characters/christopher/angry.png"
+		},
+		{
+			"name": "Smile",
+			"path": "res://assets/characters/christopher/smile.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

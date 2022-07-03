@@ -8,7 +8,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "You wander around the mall and eventually find the Pigs\nA classic set of sculptures, always covered by enthusiastic kids playing.\nThere is a single pig that is currently kid free, and hence photographable"
+			"text": "On your way to find coffee, you pass the pigs.\nA classic set of sculptures, always covered by enthusiastic kids playing.\nThere is a single pig that is currently kid free, and hence photographable"
 		},
 		{
 			"background": "res://assets/backgrounds/pigs/pigs0.JPG",
@@ -186,7 +186,27 @@
 			"set_value": "1"
 		},
 		{
-			"change_timeline": "timeline-1655644261.json",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "[All]",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1655649366.json",
 			"event_id": "dialogic_020"
 		}
 	],

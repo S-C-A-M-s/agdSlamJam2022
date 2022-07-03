@@ -59,11 +59,6 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/dialogic/Other/DialogicUtil.gd"
 }, {
-"base": "",
-"class": "GitAPI",
-"language": "NativeScript",
-"path": "res://addons/godot-git-plugin/git_api.gdns"
-}, {
 "base": "PanelContainer",
 "class": "HistoryRow",
 "language": "GDScript",
@@ -80,7 +75,6 @@ _global_script_class_icons={
 "DialogicParser": "",
 "DialogicResources": "",
 "DialogicUtil": "",
-"GitAPI": "",
 "HistoryRow": ""
 }
 
@@ -93,6 +87,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Stats="*res://autoloads/stats.gd"
+BadFile="*res://autoloads/bad_file.gd"
 
 [display]
 
@@ -107,7 +102,7 @@ enabled=PoolStringArray( "res://addons/dialogic/plugin.cfg" )
 
 [gdnative]
 
-singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
+singletons=[  ]
 
 [input]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/theme.svg-d2e167fcbacd86111397e731ff3f28eb.stex"
+path="res://.import/IMG_0491.jpeg-932b977b403e192a6947c37c2d61f267.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogic/Images/Resources/theme.svg"
-dest_files=[ "res://.import/theme.svg-d2e167fcbacd86111397e731ff3f28eb.stex" ]
+source_file="res://assets/backgrounds/kindling/IMG_0491.jpeg"
+dest_files=[ "res://.import/IMG_0491.jpeg-932b977b403e192a6947c37c2d61f267.stex" ]
 
 [params]
 

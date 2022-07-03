@@ -1,6 +1,10 @@
 {
 	"events": [
 		{
+			"background": "res://assets/backgrounds/kindling/IMG_0491.jpeg",
+			"event_id": "dialogic_021"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -116,7 +120,7 @@
 			"character": "character-1655711413.json",
 			"event_id": "dialogic_001",
 			"portrait": "Processing",
-			"text": "Processing..."
+			"text": "Processing... (click to continue)"
 		},
 		{
 			"character": "character-1655711413.json",
