@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://classes/projectiles/seeking_projectile.gd" type="Script" id=1]
+[ext_resource path="res://assets/bossfight/projectiles/seeking_projectile.png" type="Texture" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 22.0
+
+[node name="SeekingProjectile" type="Area2D"]
+script = ExtResource( 1 )
+damage = 2
+texture = "res://assets/bossfight/projectiles/seeking_projectile.png"
+texture_scale = 0.044
+steer_force = 100.0
+
+[node name="Texture" type="Sprite" parent="."]
+scale = Vector2( 0.0437769, 0.0437769 )
+texture = ExtResource( 2 )
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )

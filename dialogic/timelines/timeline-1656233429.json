@@ -1,0 +1,74 @@
+{
+	"events": [
+		{
+			"background": "res://assets/backgrounds/true_end/castle.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Here is Alt Jizney's evil castle!\nInside, my friends are still locked up, in The Dungeon of Copyright™ (Alt Jizney Incorporated)\nWe will head inside now, but be warned, Ricky Rat is on the prowl!"
+		},
+		{
+			"background": "res://assets/backgrounds/true_end/prison.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "character-1655628318.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "My friends are locked behind this state of the art Paywall.\nWe aren't even allowed to fully show them."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "In the cell you can see a Generic Emo Anthropomorphic Tiger"
+		},
+		{
+			"background": "res://assets/bossfight/background.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ricky Rat approaches!"
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": "res://scenes/boss/bossfight.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.2 - Dev",
+		"file": "timeline-1656233429.json",
+		"name": "castle"
+	}
+}
